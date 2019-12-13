@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-color: #252527; 
+}
+
+main {
+  background-color: rgb(94, 93, 93);
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 1px 10px 7px black;
+}
+
+.carousel-caption h2 {
+  text-shadow: 2px 2px 7px black;
+}
+
+section:nth-of-type(3) p {
+    font-size: 135%;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+hr { 
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 5px;
+}
+
+ul:first-of-type {
+  text-shadow: 2px 2px 5px rgb(32, 32, 32);
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(95, 95, 95);
+}
+
+.nav-pills .nav-link:hover {
+  background-color: rgb(145, 145, 145);
+  color: white;
+}
+
+.nav-pills .nav-link:active {
+  background-color: rgb(187, 187, 187);
+  color: white;
+}
+
+h1, h2, h3 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    margin-top: 5%;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+a {
+  color: white;
+}
+
+.wrapper {
+  background-color: #fff; 
+}

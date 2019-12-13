@@ -1,0 +1,4 @@
+1) I chose to go for a simple design for this site page, so that greater attention can be placed on the more important elements, like the carousel. I also used Bootstrap for this site, as it's easily scalable with mobile and desktop sites.
+2) I did struggle a bit with creating a logo using SVG, but I did eventually find a design that worked.
+3) I'm very pleased with how I was able to get the layout to work on both desktop and mobile screens.
+4) I've learned how to leverage several of the topics we've covered in class (including Bootstrap, SVG, and animations) to create a well-structured, functional site.
